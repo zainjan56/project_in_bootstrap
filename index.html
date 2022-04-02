@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link text-light rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-<link text-light rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-<title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link text-light rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link text-light rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <title>Title</title>
 </head>
+
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-          <img src="./images/8.png" class="img-fluid me-2" width="60"/>
-          <span class="fw-bold">PPS College</a></span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./images/8.png" class="img-fluid me-2" width="60" />
+        <span class="fw-bold">PPS College</a></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,13 +48,300 @@
 
   <!-- Showcase -->
   <section class="bg-dark">
-     <div class="container p-5 text-light d-md-flex justify-content-between">
-         <div>
-            <h1>Become a Web Developer</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias maiores non eveniet delectus in id aliquam omnis impedit tempora nisi dolorum ex placeat cumque quidem ipsum, sequi odio tenetur possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, delectus rerum labore aliquam expedita excepturi unde magnam mollitia tempore, porro quasi placeat aspernatur nobis aperiam officiis nesciunt esse asperiores eaque.</p>
-         </div>
-         <img src="./images/13.png" class="img-fluid ms-auto" width="200" alt=""/>
-     </div>
+    <div class="container p-5 text-light d-md-flex justify-content-between">
+      <div>
+        <h1>Become a <span class="text-info">Web Developer</span></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias maiores non eveniet delectus in id aliquam
+          omnis impedit tempora nisi dolorum ex placeat cumque quidem ipsum, sequi odio tenetur possimus?Lorem ipsum,
+          dolor sit amet consectetur adipisicing elit. Totam, modi ipsum aliquam temporibus, necessitatibus vero a error
+          repudiandae alias architecto, saepe sit nulla distinctio aliquid! Excepturi dolores distinctio totam qui?</p>
+        <button class="btn btn-primary">Enroll Now</button>
+
+        <!-- Modal -->
+      </div>
+      <img src="./images/13.png" class="ps-3 img-fluid ms-auto img-fluid d-none d-sm-block" width="200" alt="" />
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="bg-primary text-light p-4">
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h4 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h4>
+      <form class="form-inline">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Enter your email address">
+          <div class="input-group-append">
+            <button class="btn btn-secondary btn-outline-none mx-1" type="button">Sign Up</button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section class="m-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 g-4">
+          <div class="card bg-dark text-light text-center">
+            <h1 class="card-body">
+              <h1><i class="bi bi-laptop"></i></h1>
+              <h2 class="card-title">Virtual</h2>
+              <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+              <a href="#" class="btn btn-primary btn-sm m-4">Read More</a>
+            </h1>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-4 g-4">
+          <div class="card bg-secondary text-light text-center">
+            <h1 class="card-body">
+              <h1><i class="bi bi-person-square"></i></h1>
+              <h2 class="card-title">In Person</h2>
+              <p class="card-text p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis modi
+                cumque ipsam a officiis, impedit quaerat dolores in at.</p>
+              <a href="#" class="btn btn-primary btn-sm m-4">Read More</a>
+            </h1>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-4 g-4">
+          <div class="card bg-dark text-light text-center">
+            <h1 class="card-body">
+              <h1><i class="bi bi-people"></i></h1>
+              <h2 class="card-title">Hybrid</h2>
+              <p class="card-text p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cum nihil
+                corrupti nisi ipsa ullam et cupiditate dolores nobis.</p>
+              <a href="#" class="btn btn-primary btn-sm m-4">Read More</a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning -->
+  <section class="container-fluid" id="learn">
+    <div class="container d-flex">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="/images/1.svg" width="400" class="img-fluid d-none d-sm-flex" />
+        </div>
+
+        <div class="col-md">
+          <h1>What you will learn?</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque itaque, commodi doloribus veniam unde
+            voluptatem consequatur aut! Voluptate repellendus id maxime veniam quisquam. Possimus odit obcaecati
+            architecto voluptatum nesciunt? Sed.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatem illum nostrum sit commodi,
+            quam ea odio ut accusantium repellat ullam exercitationem, provident dolorum distinctio voluptates dolore
+            deleniti, vitae architecto.quam ea odio ut accusantium repellat ullam exercitationem.</p>
+          <button class="btn btn-info text-dark"><i class="bi bi-chevron-double-right"></i> Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light p-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <h1>What you will learn?</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque itaque, commodi doloribus veniam unde
+            voluptatem consequatur aut! Voluptate repellendus id maxime veniam quisquam. Possimus odit obcaecati
+            architecto voluptatum nesciunt? Sed.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatem illum nostrum sit commodi,
+            quam ea odio ut accusantium repellat ullam exercitationem, provident dolorum distinctio voluptates dolore
+            deleniti, vitae architecto.quam ea odio ut accusantium repellat ullam exercitationem.</p>
+          <button class="btn btn-info text-dark"><i class="bi bi-chevron-double-right"></i> Read More</button>
+        </div>
+        <div class="col-md">
+          <img src="/images/2.svg" width="300" class="img-fluid d-none d-sm-flex ms-5" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section id="questions" class="p-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Frequently Asked Questions</h1>
+      <div class="">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                How do I get admission in this college?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius obcaecati voluptate rem veniam rerum.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is the fee structure?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat ipsam et at impedit ad.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                When will the admission will start?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae ex inventore suscipit,
+                ipsum culpa.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Do you provide any schlorship?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse hide" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, officia consequuntur magni harum
+                molestiae fugiat unde iusto. Harum repudiandae obcaecati tempore illo consectetur vel, necessitatibus
+                ullam quam labore, ducimus soluta.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors -->
+  <section id="instructors" class="bg-primary p-5">
+    <div class="container text-center text-white">
+      <h1 class="p-4">Our Instructors</h1>
+      <p class="pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste quaerat atque. Repellat
+        repudiandae aspernatur distinctio non adipisci illo est sequi nesciunt! Vel, beatae hic repellat perferendis
+        voluptatum tempora ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi consequatur
+        obcaecati laborum quasi aperiam, hic nemo odio fugiat in, assumenda quaerat? Voluptatum quo ducimus sint
+        nesciunt, temporibus voluptas numquam.</p>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="card text-dark">
+            <img src="https://randomuser.me/portraits/men/20.jpg" class="rounded-circle p-4 img-fluid" />
+            <div class="card-title">
+              <h3>Irshad Hussain</h3>
+            </div>
+            <div class="card-body text-dark">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi?</p>
+              <a href="#facebook"><i class="bi bi-facebook mx-2"></i></a>
+              <a href="#instagram"><i class="bi bi-instagram mx-2"></i></a>
+              <a href="#linkedin"><i class="bi bi-linkedin mx-2"></i></a>
+              <a href="#whatsapp"><i class="bi bi-whatsapp mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card text-dark">
+            <img src="https://randomuser.me/portraits/men/22.jpg" class="rounded-circle p-4 img-fluid" />
+            <div class="card-title">
+              <h3>Bilal Hussain</h3>
+            </div>
+            <div class="card-body text-dark">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi?</p>
+              <a href="#facebook"><i class="bi bi-facebook mx-2"></i></a>
+              <a href="#instagram"><i class="bi bi-instagram mx-2"></i></a>
+              <a href="#linkedin"><i class="bi bi-linkedin mx-2"></i></a>
+              <a href="#whatsapp"><i class="bi bi-whatsapp mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card text-dark">
+            <img src="https://randomuser.me/portraits/women/8.jpg" class="rounded-circle p-4 img-fluid" />
+            <div class="card-title">
+              <h3>Farya Hayat</h3>
+            </div>
+            <div class="card-body text-dark">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi?</p>
+              <a href="#facebook"><i class="bi bi-facebook mx-2"></i></a>
+              <a href="#instagram"><i class="bi bi-instagram mx-2"></i></a>
+              <a href="#linkedin"><i class="bi bi-linkedin mx-2"></i></a>
+              <a href="#whatsapp"><i class="bi bi-whatsapp mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card text-dark">
+            <img src="https://randomuser.me/portraits/men/4.jpg" class="rounded-circle p-4 img-fluid" />
+            <div class="card-title">
+              <h3>Qamar Abbas</h3>
+            </div>
+            <div class="card-body text-dark">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi?</p>
+              <a href="#facebook"><i class="bi bi-facebook mx-2"></i></a>
+              <a href="#instagram"><i class="bi bi-instagram mx-2"></i></a>
+              <a href="#linkedin"><i class="bi bi-linkedin mx-2"></i></a>
+              <a href="#whatsapp"><i class="bi bi-whatsapp mx-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="contact">
+    <div class="container d-flex justify-content-between">
+      <div id="contact-details" class="col-lg-6">
+        <h1 class="text-center">Contact Info</h1>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><i class="bi bi-geo-alt"></i><strong> Address:</strong> Arbab Road Stop, University Road Peshawar</li>
+          <li class="list-group-item"><i class="bi bi-telephone"></i><strong> Phone:</strong> +92 5678908</li>
+          <li class="list-group-item"><i class="bi bi-envelope"></i><strong> Email:</strong> pps22@gmail.com</li>
+          <li class="list-group-item"><i class="bi bi-person"></i><strong> Director:</strong> Mr.Zain Ul Hassan</li>
+        </ul>
+      </div>
+      <div id="map ms-auto" class="col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.9577697739874!2d-89.21424329999999!3d48.457339800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923eaca84fa67%3A0xfd2f9f807114acd4!2s292+Shuniah+St%2C+Thunder+Bay%2C+ON+P7A+3A2!5e0!3m2!1sen!2sca!4v1424272931061" width=100% height="100%" frameborder="0" style="border:0"></iframe>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer" class="bg-dark text-light p-2">
+    <footer>
+      <div class="container">
+        <p class="text-center lead">Copyright &copy; 2021 Institute of Some Technology, Pakistan</p>
+        <p class="text-center">All rights reserved</p>
+
+        <a href="#" class="btn btn-outline-light btn-sm">Back to top</a>
+      </div>
+    </footer>
   </section>
 </body>
+
 </html>
